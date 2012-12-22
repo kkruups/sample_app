@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 #group :development do
 gem 'rails', '3.2.9'
 gem 'pg', '0.12.2'
+gem 'guard-rspec', '1.2.1'
 #gem 'pg', '0.12.2'
 #end
 
@@ -11,6 +12,10 @@ gem 'pg', '0.12.2'
 
 group :development, :test do
 	gem 'rspec-rails', '2.11.0'
+	gem 'rb-fsevent', '0.9.1', :require => false
+    gem 'growl', '1.0.3'
+    gem 'guard-spork', '1.2.0'
+    gem 'spork', '0.9.2'
 end
 
 
