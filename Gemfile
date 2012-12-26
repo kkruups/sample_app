@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 #group :development do
 gem 'rails', '3.2.9'
+gem 'bootstrap-sass', '2.1'
 gem 'pg', '0.12.2'
 gem 'guard-rspec', '1.2.1'
 #gem 'pg', '0.12.2'
